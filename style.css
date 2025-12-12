@@ -1,0 +1,49 @@
+/* General page style */
+body {
+    background: linear-gradient(to right, #f7f7f7, #d1e7f3);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header section */
+header {
+    background-color: #1a73e8;
+    color: white;
+}
+
+/* Card styling for the form */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form input fields */
+.form-control {
+    border-radius: 5px;
+}
+
+/* Submit button hover effect */
+.btn-primary {
+    background-color: #1a73e8;
+    border-color: #1a73e8;
+}
+
+.btn-primary:hover {
+    background-color: #155d8d;
+    border-color: #155d8d;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Small spacing adjustments for mobile */
+@media (max-width: 576px) {
+    .container {
+        padding: 0 15px;
+    }
+    .form-group label {
+        font-size: 0.9rem;
+    }
+}
